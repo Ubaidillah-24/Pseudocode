@@ -1,0 +1,29 @@
+1. Inisialisasi
+
+DEFINISIKAN variabel global:
+    ArrayList nomorPembeli, namaPembeli, nikPembeli, umurPembeli, alamatPembeli, noHpPembeli
+    ArrayList namaMotor, hargaMotor, uangMuka, tenor, angsuran, bunga
+    Boolean isRunning = true
+    BufferedReader br untuk membaca input
+
+2. Tampilkan Menu Utama
+
+FUNGSI tampilkanMenu
+    TAMPILKAN opsi menu:
+        1. Lihat Data
+        2. Tambah Data
+        3. Edit Data
+        4. Hapus Data
+        5. Keluar
+    MINTA pengguna memilih menu
+
+    PERIKSA pilihan menu:
+        JIKA pilihan = 1, PANGGIL fungsi tampilkanSemuaData
+        JIKA pilihan = 2, PANGGIL fungsi tambahData
+        JIKA pilihan = 3, PANGGIL fungsi editData
+        JIKA pilihan = 4, PANGGIL fungsi hapusData
+        JIKA pilihan = 5, KELUAR dari program
+        JIKA tidak valid, TAMPILKAN "Pilihan tidak valid"
+    AKHIR PERIKSA
+SELESAI FUNGSI
+
